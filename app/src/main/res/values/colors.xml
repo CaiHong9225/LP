@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="red">#FFC93437</color>
+    <color name="blue">#FF375BF1</color>
+    <color name="yellow">#FFF7D23E</color>
+    <color name="green">#FF34A350</color>
+
+    <!-- 分割线颜色 -->
+    <color name="baselib_divider_color">#E5E5E5</color>
+    <color name="baselib_font_color_gray">#9A9A9A</color>
+    <color name="baselib_font_color_title">#444444</color>
+    <color name="baselib_toolbar_bg">#FFFFFF</color>
+    <color name="baselib_font_color_gray_tip">#AAAAAA</color>
+    <!-- 浅灰色 -->
+    <color name="baselib_gray_bg">#F2F2F2</color>
+    <!-- 白色 -->
+    <color name="baselib_white">#FFFFFF</color>
+    <!-- 黑灰色字体颜色 -->
+    <color name="baselib_font_color_black">#444444</color>
+    <color name="baselib_font_color_black2">#000000</color>
+    <color name="baselib_gray">#1111</color>
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <color name="baselib_color_light_gray">#9A9A9A</color>
+    <color name="baselib_transparent_half2">#66000000</color>
+    <color name="baselib_999999">#999999 </color>
+    <color name="baselib_666666">#666666 </color>
+    <color name="baselib_b6b6b6">#B6B6B6 </color>
+    <color name="baselib_388CFF">#388CFF </color>
+    <color name="color_E8E8E8">#E8E8E8</color>
+    <color name="color_00ccff">#00ccff</color>
+
+
+    <color name="textColorPrimary">#FF009DFF</color>
+    <color name="home_status_bar_color">#388CFF</color>
+    <color name="toolBarBg">#FFFFFF</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 白色 -->
+    <!-- 白色60%透明度  A6-->
+    <color name="white_60">#99444444</color>
+
+    <!-- 字体蓝色 -->
+    <color name="font_blue">#003700</color>
+    <!-- 字体红色 登录页提示 -->
+    <color name="font_red_login_tip">#F43530</color>
+    <!-- 灰色 -->
+    <color name="gray">#CCCCCC</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <color name="black_60">#99000000</color>
+    <!-- 深灰色 -->
+    <color name="gray_dark">#BBBBBB</color>
+    <!-- 浅灰色 -->
+    <color name="gray_light">#D0D0D0</color>
+    <!-- 登录edittext浅灰色 -->
+    <color name="gray_light_edit">#FFDDDEE3</color>
+    <!-- 浅灰色 -->
+    <color name="gray_bg">#F2F2F2</color>
+    <!-- 褐色 -->
+    <color name="brown">#F33B19</color>
+
+    <!-- 红色tip -->
+    <color name="font_red_tip">#FF3030</color>
+    <!-- 浅蓝色 -->
+    <color name="blue_light">#CEF4FC</color>
+    <!-- 浅蓝色 -->
+    <color name="blue_press">#E5009DFF</color>
+
+    <!-- 透明 -->
+    <color name="transparent_no_dark">#FF000000</color>
+    <!-- 透明 -->
+    <color name="transparent_no_dark2">#23000000</color>
+    <color name="transparent_half">#88000000</color>
+    <color name="transparent_half2">#66000000</color>
+    <!--60% 透明-->
+    <color name="transparent_60">#4D000000</color>
+
+    <!-- 黑色字体颜色 -->
+    <color name="font_color_dark">#000000</color>
+    <color name="color_2F3348">#2F3348</color>
+    <!-- 黑灰色字体颜色 -->
+    <color name="font_color_black">#444444</color>
+    <!-- 灰色字体颜色 -->
+    <color name="font_color_gray_tip">#AAAAAA</color>
+    <!-- 灰色字体颜色 -->
+    <color name="font_color_gray">#9A9A9A</color>
+    <color name="color_light_gray">#9A9A9A</color>
+    <!-- 灰色字体颜色 -->
+    <color name="font_color_gray_light">#575757</color>
+    <!-- 灰色字体颜色 -->
+    <color name="font_color_gray_identify">#5D5D60</color>
+    <!-- 灰色边框 -->
+    <color name="gray_border">#E6E6E6</color>
+    <!-- 深灰色字体颜色 -->
+    <color name="font_color_gray_dark">#CFCFCF</color>
+    <!-- 浅黑灰色字体颜色 -->
+    <color name="font_color_gray_black">#656565</color>
+    <!-- 黑灰色字体颜色 -->
+    <color name="font_color_black2">#333333</color>
+    <!-- 褐色字体颜色 -->
+    <color name="font_color_brown">#F33B19</color>
+    <!-- 白色字体颜色 -->
+    <color name="font_color_white">#FFFFFF</color>
+    <!-- 蓝色字体颜色 -->
+    <!-- 亮白色字体颜色 -->
+
+    <!--  main界面top背景色 -->
+
+    <!-- 播放界面灰色背景 -->
+    <color name="mediaplayer_bgcolor_gray">#F3F2F0</color>
+    <!-- 播放界面灰色字体 -->
+    <!-- 播放界面收藏按钮背景色 -->
+    <!-- 剧集item项背景色 -->
+    <!-- 聊天室灰色分割线背景色 -->
+    <color name="chatroom_line_bgcolor_gray">#E3E3E3</color>
+    <!-- 离线缓存节目缓存进度条背景色 -->
+    <!-- 离线缓存节目缓存蓝色进度 -->
+    <!-- 弹出框边框颜色灰色 -->
+    <color name="dialog_border_gray">#D1C9BF</color>
+    <!-- 弹出框中字体颜色蓝色 -->
+    <color name="red_choice_color">#F34424</color>
+    <color name="orange_choice_color">#FEA003</color>
+    <color name="yellow_choice_color">#FCCD3D</color>
+    <color name="green_choice_color">#76CA58</color>
+
+    <!--云相册-->
+    <!-- 灰色字体颜色 -->
+    <color name="album_font_color_gray">#666666</color>
+
+    <color name="ripple">#3f000000</color>
+    <color name="press">#b3fffffc</color>
+    <color name="normal">#fafafa</color>
+
+    <!-- 分割线颜色 -->
+    <color name="divider_color">#E5E5E5</color>
+    <!-- 分割线颜色 -->
+    <color name="gray_bg_tip">#E3E3E3</color>
+    <!-- 换一换背景颜色 -->
+
+    <!-- 金色 -->
+    <color name="gold">#E4C66E</color>
+    <color name="gold_gray">#937932</color>
+    <!-- 有料灰色分割线背景色 -->
+    <color name="line_bgcolor_gray">#E8E8E8</color>
+    <color name="font_color_title">@color/font_color_black</color>
+
+    <!--jstp-->
+    <color name="textColor">#9A9A9A</color>
+    <color name="color_status">#494343</color>
+    <color name="progress_color">@color/colorPrimary</color>
+    <color name="tabIndicatorColor">@color/textColorPrimary</color>
+    <color name="tabSelectedTextColor">@color/textColorPrimary</color>
+    <color name="tabTextColor">@color/font_color_gray</color>
+    <color name="textSelectColor">@color/textColorPrimary</color>
+
+    <!-- 灰色字体颜色 -->
+    <color name="font_color_gray_a2">#A2A2A2</color>
+    <color name="font_color_gray_9f">#9F9F9F</color>
+    <color name="font_color_gray_99">#999999</color>
+    <!--投屏横屏背景-->
+    <color name="popupwindow_bg">#FF201F1F</color>
+
+    <color name="color_FF7E39">#FF7E39</color>
+    <color name="color_FF9300">#FF9300</color>
+    <color name="color_009DFF">#FF009DFF</color>
+    <color name="color_496EFF">#496EFF</color>
+
+    <!--  我的 -->
+
+    <!---电视start-->
+    <color name="color_channel_item_select">#ABDFFF</color>
+    <color name="color_program_item_pbfont">#CFECFF</color>
+    <color name="color_program_item_pbbg">#F9F9F9</color>
+    <!---电视end-->
+    <color name="color_tabbar_vip">#E9BD5A</color>
+    <color name="color_device_C7C6CB">#C7C6CB</color>
+    <!--设备选择器-->
+    <color name="yst_remote_transparent">#00000000</color>
+
+    <color name="ainemo_white">#FFA1A1A1</color>
+    <color name="primary_color">#3395FF</color>
+
+    <color name="yst_videocall_bg">#222931</color>
+    <color name="ysten_top_title">#01b9f5</color>
+    <color name="ysten_color_f8f8f8">#f8f8f8</color>
+    <color name="ysten_color_222328">#222328</color>
+
+    <color name="color_f5f7f9">#f5f7f9</color>
+    <color name="color_keyboard_split_line">#e2e2e2</color>
+    <color name="color_23d1e3">#23d1e3</color> <!--tab 点击颜色-->
+    <color name="color_435062">#435062</color><!--tab 未点击颜色-->
+    <color name="color_F9382B">#FFF9382B</color><!--未接电话颜色-->
+    <color name="color_444444">#FF444444</color><!--已接电话颜色-->
+    <color name="color_999999">#FF999999</color>
+    <color name="color_979797">#FF979797</color>
+
+    <!-- 网关相关 -->
+
+    <!-- Uni APP UI命名规范 2016.5.26   start -->
+    <!--titlebar背景色  -->
+    <!--背景色 主色调 -->
+    <!--用于button按下时 -->
+    <!--内容区背景色 -->
+    <!--列表或者button -->
+    <!--列表或者button 按下时-->
+    <!--新消息提醒标示-->
+    <!--头像背景色 红-->
+    <!--新消息提醒 蓝-->
+    <!--新消息提醒 黄-->
+    <!-- 文字颜色 用于白色button上的文字-->
+
+    <!--文字颜色 用于出错提示 -->
+    <!--文字颜色 主标题 正文-->
+
+    <!--文字颜色 次标题 -->
+    <!--文字颜色 辅助说明-->
+    <!--文字颜色 有颜色button上的文字 -->
+
+    <!--文字颜色 浅灰色button上的文字 -->
+    <!--浅色背景 -->
+    <!-- 目前用于聊天照片提示-->
+    <!--引导背景色 -->
+
+    <!--分割线颜色 背景有底色时的分割线-->
+    <!--分割线颜色 正文列表分割线 -->
+    <!--分割线颜色 正文列表分割线 -->
+    <!--透明背景 -->
+    <color name="uni_transparent">#00000000</color>
+    <!--透明不背景 -->
+    <color name="un_transparent">#FF000000</color>
+    <!-- Uni APP UI命名规范 2016.5.26   end -->
+
+    <!--通知栏背景 -->
+
+
+
+    <color name="color_20262f">#20262f</color>
+    <color name="color_333333">#333333</color>
+    <color name="top_title">#01B9F5</color>
+    <color name="color_split_line">#e0e6ea</color>
+    <color name="color_split_line_mine">#e0e6ea</color>
+    <color name="line_gray">#e8e8e8</color>
+    <color name="color_f8f8f8">#f8f8f8</color>
+
+
+    <color name="font_333333">#333333</color>
+    <color name="color_DDDEE3">#DDDEE3</color>
+    <color name="color_E64340">#E64340</color>
+
+    <color name="color_F7F7F7">#F7F7F7</color>
+    <color name="color_bottom_tab_text">@color/font_color_black</color>
+    <color name="color_bottom_tab_text_selected">#009DFF</color>
+    <color name="color_777E8C">#FF777E8C</color>
+    <color name="color_E6E6E6">#E6E6E6</color>
+    <color name="color_160D36">#160D36</color>
+    <color name="color_a2a2a2">#A2A2A2</color>
+    <color name="color_A4A2A3">#A4A2A3</color>
+    <color name="color_3E63D5">#3E63D5</color>
+    <color name="color_6F7395">#6F7395</color>
+</resources>
