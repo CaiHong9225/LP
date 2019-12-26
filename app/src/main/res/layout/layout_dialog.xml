@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:alpha="0.9"
+              android:background="@drawable/dialog_background"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_20"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            style="@style/dialog_title_style"
+            android:text="请输入Url:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dialog_content"
+            style="@style/dialog_title_style"
+            android:layout_marginTop="@dimen/dimen_15"
+            android:text="该片为付费内容，请购买后在投屏" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/dialog_img_content"
+            android:layout_width="@dimen/dimen_50"
+            android:layout_height="@dimen/dimen_50"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_15"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_album_nopic"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <include layout="@layout/layout_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/line_divier"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <Button
+            android:id="@+id/dialog_btn_left"
+            style="@style/dialog_btn_style"
+            android:text="马上就约"
+            android:textColor="@color/font_color_gray"/>
+
+        <Button
+            android:id="@+id/dialog_btn_right"
+            style="@style/dialog_btn_style"
+            android:text="残忍拒绝"
+            android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+</LinearLayout>

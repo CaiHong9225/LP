@@ -135,6 +135,7 @@
     <color name="ripple">#3f000000</color>
     <color name="press">#b3fffffc</color>
     <color name="normal">#fafafa</color>
+    <color name="home_bottom_tab_color">#FFFF804B</color>
 
     <!-- 分割线颜色 -->
     <color name="divider_color">#E5E5E5</color>

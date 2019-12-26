@@ -19,6 +19,7 @@ import com.ccc.locationprovider.utils.CallUtils;
 import com.ccc.locationprovider.utils.GPSUtils;
 import com.ccc.locationprovider.utils.LocationUtil;
 import com.ccc.locationprovider.utils.LocationUtils;
+import com.ccc.locationprovider.utils.LpDebugUtils;
 import com.ccc.locationprovider.utils.UtilsApp;
 import com.ccc.locationprovider.widget.X5WebView;
 
@@ -28,6 +29,7 @@ public class GpsActivity extends BaseActivity {
 
     private String url = "http://www.163.com";
     private TextView textView;
+    private TextView tv_debug;
     //js调用示例
 //    function dealAndroid(type, params) {
 //        var browser = {
@@ -70,7 +72,15 @@ public class GpsActivity extends BaseActivity {
         setContentView(R.layout.activity_gps);
         UtilsApp.setCurrentActivity(this);
         initView();
+        duBug();
         loadUrl();
+    }
+    private void duBug(){
+        if(UtilsApp.isDebug){
+            tv_debug.setVisibility(View.VISIBLE);
+        }else{
+            tv_debug.setVisibility(View.GONE);
+        }
     }
     private void loadUrl() {
         if (!TextUtils.isEmpty(url)) {
@@ -81,12 +91,18 @@ public class GpsActivity extends BaseActivity {
     private void initView() {
         webView = (X5WebView) findViewById(R.id.activity_webview);
         textView = findViewById(R.id.call);
+        tv_debug= findViewById(R.id.tv_debugmode);
+        tv_debug.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                LpDebugUtils.getInstance().showInputDialog(GpsActivity.this,webView);
+            }
+        });
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 double[] doubles = requestGpsPermission();
                 Log.d(TAG,"ladtidute:"+doubles[0]+";long:"+doubles[1]);
-//                CallUtils.callPhone("13222222222");
             }
         });
     }

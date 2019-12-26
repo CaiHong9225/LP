@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_300"
+    android:background="@drawable/edit_alert_dialog_bg">
+
+
+    <EditText
+        android:id="@+id/et_input_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_20"
+        android:layout_marginTop="@dimen/dimen_50"
+        android:layout_marginRight="@dimen/dimen_20"
+        android:background="@drawable/et_input_bg"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="请输入网址"
+        android:padding="@dimen/dimen_5"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size_15" />
+
+    <Button
+        android:id="@+id/bt_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_input_url"
+        android:layout_marginLeft="@dimen/dimen_50"
+        android:layout_marginTop="@dimen/dimen_50"
+        android:background="@drawable/bt_cancel_bg"
+        android:text="取消"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_15" />
+
+    <Button
+        android:id="@+id/bt_define"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_input_url"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/dimen_50"
+        android:layout_marginRight="@dimen/dimen_50"
+        android:layout_marginBottom="@dimen/dimen_40"
+        android:background="@drawable/bt_define_bg"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_15" />
+</RelativeLayout>

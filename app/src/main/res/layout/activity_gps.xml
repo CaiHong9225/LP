@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/activity_web"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:background="@color/color_2F3348"
     android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
     <TextView
         android:id="@+id/call"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:visibility="gone"
-        android:text="12222222"/>
+        android:text="12222222"
+        android:visibility="gone" />
+
     <include
         android:id="@+id/title"
         layout="@layout/toolbar_title_layout"
-        android:visibility="gone"/>
+        android:visibility="gone" />
+
     <com.ccc.locationprovider.widget.X5WebView
         android:id="@+id/activity_webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-</LinearLayout>
+    <TextView
+        android:id="@+id/tv_debugmode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/dimen_6"
+        android:background="@color/colorPrimary"
+        android:text="debug"
+        android:textSize="@dimen/font_size_15" />
+</RelativeLayout>
